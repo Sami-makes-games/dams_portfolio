@@ -245,7 +245,7 @@ h2 {
   align-items: flex-start;
   gap: 106.667px;
 }
-.skills--section--heading {
+.skills--section--heading, .section--heading, .sections--heading {
   color: var(--heading-color);
   font-size: 64px;
   font-weight: 700;

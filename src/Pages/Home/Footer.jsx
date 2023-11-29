@@ -6,7 +6,7 @@ function Footer() {
     <footer className="footer--container">
       <div className="footer--link--container">
         <div>
-          <img src="./img/logo.png" alt="Logoipsum" />
+          <img src="./img/logo.png" alt="logodams" />
         </div>
         <div className="footer--items">
           <ul>
@@ -21,19 +21,6 @@ function Footer() {
                 className="text-md"
               >
                 Inicio
-              </Link>
-            </li>
-            <li>
-              <Link
-                activeClass="navbar--active-content"
-                spy={true}
-                smooth={true}
-                offset={-70}
-                duration={500}
-                to="MyPortfolio"
-                className="text-md"
-              >
-                Portafolio
               </Link>
             </li>
             <li>
@@ -69,10 +56,23 @@ function Footer() {
                 smooth={true}
                 offset={-70}
                 duration={500}
-                to="Contact"
+                to="mySkills"
                 className="text-md"
               >
-                Contáctanos
+                Skills
+              </Link>
+            </li>
+            <li>
+              <Link
+                activeClass="navbar--active-content"
+                spy={true}
+                smooth={true}
+                offset={-70}
+                duration={500}
+                to="MyPortfolio"
+                className="text-md"
+              >
+                Portafolio
               </Link>
             </li>
           </ul>
