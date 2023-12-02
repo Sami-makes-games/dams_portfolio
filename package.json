@@ -1,4 +1,5 @@
 {
+  "homepage": "https://Sami-makes-games.github.io/dams_portfolio",
   "name": "portfolio",
   "version": "0.1.0",
   "private": true,
@@ -14,8 +15,8 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build"
+    "start": "npm run build",
+    "build": "gh-pages -d build"
   },
   "browserslist": {
     "production": [
@@ -28,5 +29,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "gh-pages": "^6.1.0"
   }
 }
